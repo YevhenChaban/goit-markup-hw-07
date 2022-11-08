@@ -1,0 +1,24 @@
+/* адреса */
+
+.address {
+    font-style: normal;
+    gap: 9px;
+}
+
+.address__link {
+    line-height: 1.7;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms $cubic;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+
+
+.address__link--color-white {
+    color: $white-color;
+}
