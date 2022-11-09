@@ -24,8 +24,6 @@
     }
 }
 
-
-
 .project__content {
     padding: 20px 15px;
     border-left: 1px solid $border-color;
@@ -47,7 +45,7 @@
     color: $title-text-color;
 }
 
-.project__text {
+.project__type {
     margin-top: 4px;
     margin-bottom: 0px;
     font-size: 16px;
@@ -71,9 +69,6 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform 250ms $cubic;
-
-    
-
 }
 
 .project__text {
@@ -83,9 +78,4 @@
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: $white-color;
-}
-
-.project-item:hover .project-overlay,
-.project-item:focus .project-overlay {
-    transform: translateY(0%);
 }
